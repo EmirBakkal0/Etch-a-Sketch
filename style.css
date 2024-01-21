@@ -1,6 +1,7 @@
 *{
-    background-color: red;
+    background-color: #0a175b;
     box-sizing: border-box;
+    color:white;
 }
 .center{
     display: flex;
@@ -8,18 +9,21 @@
     align-items: center;
 }
 .container{
-    width: 160px;
-    height: 160px;
+    width: 640px;
+    height: 640px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
 
 }
+h1{
+    color:gold;
+}
 
 .grid-element{
-    width: 10px;
-    height: 10px;
-    background-color: white;
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
 }
 
 /*.grid-element:hover{*/
